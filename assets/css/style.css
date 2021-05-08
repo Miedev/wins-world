@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Monument Grotesk;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.background .backgrounds {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-attachment: fixed;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.8;
+}
+
+.backgrounds {
+  background-image: url(../images/home3.jpg);
+}
